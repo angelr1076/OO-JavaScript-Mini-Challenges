@@ -1,4 +1,4 @@
-// // Create an object called Multiplier with two methods: multiply and getCurrentValue. multiply should initially return the number supplied * 1 and from then on whatever the current value is times the number supplied.getCurrentValue should return the last answer returned from multiply.
+//1. Create an object called Multiplier with two methods: multiply and getCurrentValue. multiply should initially return the number supplied * 1 and from then on whatever the current value is times the number supplied.getCurrentValue should return the last answer returned from multiply.
 
 function Multiplier() {
     this.currentvalue = 1;
@@ -24,7 +24,7 @@ console.log(newValue.multiply(20));
 console.log(newValue.getCurrentValue());
 
 
-// Implement an object model that allows you to store strings that represent a Photo. 
+//2. Implement an object model that allows you to store strings that represent a Photo. 
 // Your model should include an Album object that can contain many Photo objects in its photos attribute. 
 // Each Album should allow you to add a new photo, list all photos, and access a specific photo by the order it was added. 
 // Each Photo should store the photo's file name and the location the photo was taken in as strings. 
@@ -63,7 +63,7 @@ console.log(firstAlbum);
 console.log(firstAlbum.cyclePhotos());
 
 
-// Create a prototypical Person object. From this object, extend a Teacher object and a Student object. 
+//3. Create a prototypical Person object. From this object, extend a Teacher object and a Student object. 
 // Each of these objects should have attributes and methods pertinent to what they describe. 
 // Also create a School object that should be able to store instances of students and teachers. 
 // Make sure to write code afterwards that creates instances of these objects to make sure that 
